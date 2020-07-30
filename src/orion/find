@@ -1,0 +1,11 @@
+curl --request POST 'http://127.0.0.1:8545' --header 'Content-Type: application/json' --data-raw '{
+    "jsonrpc": "2.0",
+    "method": "priv_findPrivacyGroup",
+    "params": [
+        [
+            "negmDcN2P4ODpqn/6WkJ02zT/0w0bjhGpkZ8UP6vARk=",
+            "g59BmTeJIn7HIcnq8VQWgyh/pDbvbt2eyP0Ii60aDDw="
+        ]
+    ],
+    "id": 1
+}'
